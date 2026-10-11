@@ -1,0 +1,26 @@
+# 機密設定
+.env
+
+# 個人 AI 助理設定
+CLAUDE.md
+.claude/
+
+# 官方資料集（依競賽規範不公開散布），只保留自製擴增資料與說明
+datasets/*
+!datasets/README.md
+!datasets/augmented_rare_samples.csv
+
+# 推論中途存檔
+*.partial
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# OS / 編輯器
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
